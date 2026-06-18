@@ -1,2 +1,66 @@
-.expo/
+# Dependencies
 node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+.metro/
+.metro-health-check*
+
+# EAS
+.eas/
+
+# Native builds (Android & iOS)
+*.apk
+*.apks
+*.aab
+*.ipa
+*.app
+*.keystore
+*.jks
+/android/app/build
+/android/app/src/main/assets
+/android/app/src/main/res/raw
+/android/app/src/main/res/drawable-*
+/android/app/src/main/res/values-v21
+/android/app/src/main/res/values-v24
+/android/app/src/main/res/values-v26
+/android/app/src/main/res/values-v28
+/android/app/src/main/res/values-night
+
+# iOS build products
+*.mobileprovision
+*.cer
+*.p12
+*.p8
+*.key
+/ios/build
+/ios/Pods
+/ios/*.xcworkspace
+/ios/*.xcodeproj
+
+# Environment variables / Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+local.properties
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
